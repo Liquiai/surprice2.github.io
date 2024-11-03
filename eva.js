@@ -7,13 +7,13 @@ document.getElementById('createCard').addEventListener('click', function() {
 
     switch (cardType) {
         case 'love':
-            imageUrl = 'C:\\Users\\senbonzakura\\Desktop\\IT\\JavaScript\\eva\\img\\Снимок экрана 2024-11-03 110855.png';
+            imageUrl = 'img\\Снимок экрана 2024-11-03 110855.png';
             break;
         case 'friendship':
-            imageUrl = 'C:\\Users\\senbonzakura\\Desktop\\IT\\JavaScript\\eva\\img\\123.png';
+            imageUrl = 'img\\123.png';
             break;
         case 'birthday':
-            imageUrl = 'C:\\Users\\senbonzakura\\Desktop\\IT\\JavaScript\\eva\\img\\1234.png';
+            imageUrl = 'img\\1234.png';
             break;
         default:
             alert('НЕ ТУДА!!!.');

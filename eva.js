@@ -5,9 +5,9 @@ document.getElementById('createCard').addEventListener('click', function() {
     const riddle = document.getElementById('riddle');
     let imageUrl = '';
 
-   switch (cardType) {
+ switch (cardType) {
     case 'love':
-        imageUrl = './img/12.png'; /
+        imageUrl = './img/12.png'; //
         break;
     case 'friendship':
         imageUrl = './img/123.png';

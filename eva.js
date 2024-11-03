@@ -7,7 +7,7 @@ document.getElementById('createCard').addEventListener('click', function() {
 
    switch (cardType) {
     case 'love':
-        imageUrl = './img/12.png'; 
+        imageUrl = './img/12.png'; /
         break;
     case 'friendship':
         imageUrl = './img/123.png';
